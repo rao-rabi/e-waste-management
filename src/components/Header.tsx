@@ -19,6 +19,7 @@ import { useMediaQuery } from "@/hooks/useMediaQuery"
 import { createUser, getUnreadNotifications, markNotificationAsRead, getUserByEmail, getUserBalance } from "@/utils/db/actions"
 
 const clientId = "BJKdDFkNtkWX87XqkuWrDu4rbkSvWyQZ5lswS0ucINxxcN0inRVW8zzKAywPPzgiOHP7_3PcfFwfpvcQvSdaLRs";
+// const clientId = "BHR2SbHAvWTNQJl5V-gqtrmx2DVtNE7NDj2uXuFLOOTzL5BqY-wwJ02aHXt7Tk4Ew_Qqy3mCzkTqDoz2Bm-rMkY"
 
 const chainConfig = {
   chainNamespace: CHAIN_NAMESPACES.EIP155,
